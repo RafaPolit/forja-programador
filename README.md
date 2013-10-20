@@ -27,6 +27,7 @@ Existen dos maneras de utilizar la Forja:
 Desde un Navegador de Internet
 ------------------------------
 Para utilizar la aplicación desde consola debe primero levantar el servidor de Node
+
 `$ npm start`
 
 Una vez levantado el servidor, navegue en el Navegador a:
