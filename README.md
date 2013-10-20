@@ -26,6 +26,7 @@ Existen dos maneras de utilizar la Forja:
 Desde la CONSOLA
 ----------------
 `$ node forge_command.js 'Bua-Gua-Mua'`
+
 (Remplace la cadena de llanto con el llanto deseado)
 
 
