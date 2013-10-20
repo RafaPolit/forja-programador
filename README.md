@@ -53,7 +53,7 @@ Estructura
 * Un pequeño script de utilidades para la Aplicación se ecuentra en la carpeta /utils
 * Cada uno de ellos tiene su respectivo test dentro de la carpeta /specs 
 * Hay un test adicional llamado test_cases_spec que demuestra cada uno de los casos
-  ejemplo descritos en la descripción de la prueba de código
+  ejemplo descritos en la prueba de código
 * Hay una fixture con los casos ejemplo en la carpeta /fixtures
 * Hay un archivo de utilidades para la forma de entrada de datos en /public/javascripts
   que no está testeado pues solo representa funcionalidad para entrada automatizada de
