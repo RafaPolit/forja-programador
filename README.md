@@ -63,12 +63,12 @@ Notas
   desde formulario WEB está diseñada de tal manera que no haya como ingresar datos 
   mal formados. (El control de errores no estaba descrito en la descripción de la prueba).
 * La aplicación calcula correctamente las horas que ha dormido el programador y, si las
-  acciones habían llevado más de las 8 horas, todavía reporta como que ha dormido 0 minutos,
+  acciones requieren más de las 8 horas, todavía reporta como que ha dormido 0 minutos,
   en lugar de reportar sueño 'negativo'.
 * La aplicación calcula correctamente los followers perdidos inclusive pasadas las 8 
   horas de sueño.  Es decir, se puede perder más de 1200 seguidores si el programador sigue
   atendiendo al niño por encima de las 8 horas de sueño.
-* Se tuilizó bootstrap solamente como template CSS y no se utilizó ninguna funcionalidad JS
+* Se uilizó bootstrap solamente como template CSS y no se utilizó ninguna funcionalidad JS
   de la librería ni de ninguna otra como está estipulado en los requerimientos de la prueba.
 * Las rutas no están testeadas.
 * Las vistas no tienen ninguna lógica más allá del aspecto de los objetos.
