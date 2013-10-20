@@ -9,8 +9,19 @@ describe('The String Utils', function() {
   });
 
   it('should have a format_hours_miuntes function that receives minutes and returns hours and minutes', function() {
-    var expected_string = utils.format_hours_minutes(285);
+    var expected_string = '';
+    
+    expected_string = utils.format_hours_minutes(285);
     expect(expected_string).toBe('4 horas 45 minutos');
+    
+    expected_string = utils.format_hours_minutes(120);
+    expect(expected_string).toBe('2 horas');
+    
+    expected_string = utils.format_hours_minutes(20);
+    expect(expected_string).toBe('20 minutos');
+
+    expected_string = utils.format_hours_minutes(0);
+    expect(expected_string).toBe('0 minutos');
   });
 
   it('should have a add_dash_spaces function that receives a dashed string and inserts spaces between them', function() {

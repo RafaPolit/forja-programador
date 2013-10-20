@@ -15,7 +15,6 @@ module.exports = function(baby_cries_string) {
       programmer: require('../forge/programmer.js')(baby_cries),
       followers_controller: require('../forge/twitter_followers.js')
     };
-
   }
 
   function format_output() {
