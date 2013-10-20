@@ -34,6 +34,10 @@ Una vez levantado el servidor, navegue en el Navegador a:
 * http://localhost:3000  -  Para ver los casos de ejemplo planteados.
 * http://localhost:3000/forge  -  Para ingresar nuevos casos.
 
+Utilice los botones de cada tipo de llanto para agregarlo.  Puede eliminar el úlitmo
+llanto o limpiar completamente el input y empezar de nuevo.  Cuando tenga la cadena
+deseada, seleccione el botón 'Calcular!' para ver el resultado.
+
 =====================================================================================
 Desde la Consola
 ----------------
