@@ -1,5 +1,3 @@
-'use strict';
-
 var cries = [];
 var input = document.getElementById('input');
 var input_display = document.getElementById('input-display');
