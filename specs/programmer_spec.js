@@ -50,13 +50,15 @@ describe('The Programmer', function() {
   });
 
   describe('Lost sleep', function() {
-    it('should have a string of lost sleep time for each action taken during the night', function() {
+    it('should have a value of lost_sleep and his sleep_time for the actions taken during the night', function() {
       instantiate_programmer('Mua-Bua-Bua-Gua-Mua-Bua-Gua-Bua-Bua-Mua-Gua-Bua-Mua');
       programmer.attend_to_baby();
       expect(programmer.sleep_time).toBe(30);
       expect(programmer.lost_sleep).toBe(450);
     });
   });
+
+  /* ----------------------------------------------------------------------- */
 
   function instantiate_programmer(cries) {
     programmer = require('../forge/programmer.js')(cries);

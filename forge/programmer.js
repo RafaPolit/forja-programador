@@ -11,11 +11,7 @@ module.exports = function(baby_cries) {
     { attend: /Gua/g, with: 'Chupón', takes: 10 }
   ];
 
-  var programmer = {
-    actions: '',
-    sleep_time: 480,
-    lost_sleep: 0
-  };
+  var programmer = { actions: '', sleep_time: 480, lost_sleep: 0 };
 
   programmer.attend_to_baby = function() {
     var resolved_cries = resolve_cries();

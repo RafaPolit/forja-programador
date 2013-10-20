@@ -18,7 +18,7 @@ module.exports = function(baby_cries_string) {
   }
 
   function format_output() {
-    var utils = require('./string_utils.js')();
+    var utils = require('../utils/string_utils.js')();
     forge.programmer.sleep_time_str = utils.format_hours_minutes(forge.programmer.sleep_time);
     forge.programmer.actions_str = utils.add_dash_spaces(forge.programmer.actions);
   }

@@ -3,7 +3,6 @@
 module.exports = function(sleep_lost) {
 
   var aceptable_sleep_time = 240;
-
   var followers = {};
 
   followers.lost_followers = 0;
