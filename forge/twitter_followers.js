@@ -3,10 +3,9 @@
 module.exports = function(sleep_lost) {
 
   var acceptable_sleep_time = 240;
+  var sleep_lost_above_acceptable = sleep_lost - acceptable_sleep_time;
   
   var followers = { lost_followers: 0 };
-
-  var sleep_lost_above_acceptable = sleep_lost - acceptable_sleep_time;
 
   if(sleep_lost_above_acceptable > 0) {
     var groups_of_30_minutes = Math.ceil(sleep_lost_above_acceptable / 30);
