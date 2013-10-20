@@ -54,6 +54,8 @@ Estructura
 * Cada uno de ellos tiene su respectivo test dentro de la carpeta /specs 
 * Hay un test adicional llamado test_cases_spec que demuestra cada uno de los casos
   ejemplo descritos en la prueba de código
+* Los tests inician con un número para que se listen en el orden correcto al correr
+  npm test 
 * Hay una fixture con los casos ejemplo en la carpeta /fixtures
 * Hay un archivo de utilidades para la forma de entrada de datos en /public/javascripts
   que no está testeado pues solo representa funcionalidad para entrada automatizada de
