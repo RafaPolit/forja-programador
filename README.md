@@ -73,8 +73,9 @@ Notas
   acciones requieren más de las 8 horas, todavía reporta como que ha dormido 0 minutos,
   en lugar de reportar sueño 'negativo'.
 * La aplicación calcula correctamente los followers perdidos inclusive pasadas las 8 
-  horas de sueño.  Es decir, se puede perder más de 1200 seguidores si el programador sigue
-  atendiendo al niño por encima de las 8 horas de sueño.
+  horas perdidas de sueño.  Es decir, se puede perder más de 1200 seguidores si el programador
+  sigue atendiendo al niño.  Se podría implementar facilmente un 'cap' en 1200 seguidores,
+  sin embargo esos casos límite no estaban descritos en la prueba.
 * Se uilizó bootstrap solamente como template CSS y no se utilizó ninguna funcionalidad JS
   de la librería ni de ninguna otra como está estipulado en los requerimientos de la prueba.
 * Las rutas no están testeadas.
