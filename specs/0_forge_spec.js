@@ -38,12 +38,12 @@ describe('The Forge', function() {
 
   describe('The Forges Output', function() {
     it('should format the actions to have spaces between the dashes', function() {
-      forge = require('../forge/forge.js')('Mua-Bua-Gua');
+      instantiate_forge('Mua-Bua-Gua');
       expect(forge.programmer.actions_str).toBe('(Pañal Alimentar) - Chupón');
     });
 
     it('should format programmer sleep_time to hours and minutes', function() {
-      forge = require('../forge/forge.js')('Mua-Bua-Gua');
+      instantiate_forge('Mua-Bua-Gua');
       expect(forge.programmer.sleep_time_str).toBe('6 horas 35 minutos');
     });
   });
