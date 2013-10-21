@@ -36,7 +36,7 @@ describe('The Forge', function() {
     });
   });
 
-  describe('The Forges Output', function() {
+  describe('The Forge Output', function() {
     it('should format the actions to have spaces between the dashes', function() {
       instantiate_forge('Mua-Bua-Gua');
       expect(forge.programmer.actions_str).toBe('(Pañal Alimentar) - Chupón');

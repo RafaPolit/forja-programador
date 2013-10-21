@@ -1,8 +1,8 @@
 'use strict';
 
-module.exports = function(baby_cries_string) {
+module.exports = function(baby_cries) {
 
-  var forge = set_up_forge(baby_cries_string || '');
+  var forge = set_up_forge(baby_cries || '');
 
   forge.programmer.attend_to_baby();
   forge.followers.determine_followers(forge.programmer.lost_sleep);
